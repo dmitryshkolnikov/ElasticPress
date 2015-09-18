@@ -607,7 +607,7 @@ class EP_API {
 		 * @since 1.7
 		 *
 		 * @param         array Array of index-able private meta keys.
-		 * @param WP_POST $post The current post to be indexed.
+		 * @param WP_Post $post The current post to be indexed.
 		 */
 		$allowed_protected_keys = apply_filters( 'ep_prepare_meta_allowed_protected_keys', array(), $post );
 
@@ -619,7 +619,7 @@ class EP_API {
 		 * @since 1.7
 		 *
 		 * @param         array Array of public meta keys to exclude from index.
-		 * @param WP_POST $post The current post to be indexed.
+		 * @param WP_Post $post The current post to be indexed.
 		 */
 		$excluded_public_keys = apply_filters( 'ep_prepare_meta_excluded_public_keys', array(), $post );
 
