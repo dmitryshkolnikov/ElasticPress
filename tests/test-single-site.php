@@ -1933,4 +1933,13 @@ class EPTestSingleSite extends EP_Test_Base {
 		$this->assertArrayNotHasKey( 'ep_test_not_public', $post_types );
 	}
 
+	/**
+	 * Test to verify meta array is built correctly.
+	 *
+	 * @since 1.7
+	 */
+	public function testPrepareMeta() {
+
+
+	}
 }
